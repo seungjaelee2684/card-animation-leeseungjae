@@ -6,11 +6,11 @@
   <tbody>
     <tr>
       <th align="center">전화번호</th>
-      <td align="center" width="800px;">010-6532-5635</td>
+      <td align="start" width="300px;">010-6532-5635</td>
     </tr>
     <tr>
       <th align="center">이메일</th>
-      <td align="center" width="800px;">sean2684@naver.com</td>
+      <td align="start" width="300px;">sean2684@naver.com</td>
     </tr>
   </tbody>
 </table>
