@@ -2,6 +2,19 @@
 
 과제에 사용된 이미지는 전부 직접 그린 그림입니다.
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center">전화번호</th>
+      <td align="start" width="300px;">010-6532-5635</td>
+    </tr>
+    <tr>
+      <th align="center">이메일</th>
+      <td align="start" width="300px;">sean2684@naver.com</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 기능 설명
 
 * **가상 DOM을 이용해 기능 구현**
