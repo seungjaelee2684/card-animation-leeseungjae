@@ -10,20 +10,31 @@
   <!-- 가상 DOM이 실제 DOM에 적용될 곳 -->
   <div id="root" class="root">
     <main class="main">
-      <div id="card" class="card" onclick=onClickCardHandler()>
+      <button class="code_button" onclick="onClickCodeOpenHandler()">
+        코드 확인
+      </button>
+      <div id="code_box" class="code_box">
+        <nav class="code_value_box">
+          <a class="code_value" href="">html</a>
+          <a class="code_value" href="">css</a>
+          <a class="code_value" href="">javascript</a>
+        </nav>
+        <a class="github" href="https://github.com/seungjaelee2684/card-animation-leeseungjae">
+          github 레포지토리 주소
+        </a>
+      </div>
+      <div id="card" class="card" onclick="onClickCardHandler(event)">
         <div class="card_box">
-          <div class="front_card">
-  
-          </div>
-          <div class="back_card">
-            
-          </div>
+          <div class="click_box">Click!</div>
+          <div class="front_card"></div>
+          <div class="back_card"></div>
         </div>
       </div>
     </main>
   </div>
 
-  <script src="virtual.js"></script>
-  <script src="card.js"></script>
+  <script src="/javascript/virtual.js"></script>
+  <script src="/javascript/card.js"></script>
+  <script src="/javascript/codeOpen.js"></script>
 </body>
 </html>
