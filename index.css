@@ -134,6 +134,7 @@ body {
   align-items: center;
   cursor: pointer;
   border: 1px solid;
+  text-decoration: none;
 }
 
 .github {
