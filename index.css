@@ -109,6 +109,7 @@ body {
   position: fixed;
   top: 0;
   left: -500px;
+  z-index: 15;
   background-color: #222020;
   color: #ffffff;
   transition: all 0.3s ease-in-out;
