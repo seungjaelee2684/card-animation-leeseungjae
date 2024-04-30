@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 가상 DOM이 실제 DOM에 적용될 곳 -->
+  <div id="root" class="root">
+    <main class="main">
+      <div id="card" class="card" onclick=onClickCardHandler()>
+        <div class="card_box">
+          <div class="front_card">
+  
+          </div>
+          <div class="back_card">
+            
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="virtual.js"></script>
+  <script src="card.js"></script>
+</body>
+</html>
